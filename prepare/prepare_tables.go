@@ -25,9 +25,9 @@ func CreateTable() error {
 		CREATE TABLE IF NOT EXISTS sales (
 			sale_id SERIAL PRIMARY KEY,
 			product_id integer not null,
-			user_id integer,
-			sold_at datetime,
-			locked_at bigint
+			user_id integer default null,
+			sold_at timestamp default null,
+			locked_at bigint default null
 		)
 	`)
 	if err != nil {
