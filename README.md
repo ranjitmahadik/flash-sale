@@ -24,7 +24,7 @@ To configure the necessary environment variables for the project, follow these s
 2. Run the following command in your terminal:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 This command will start the PostgreSQL container in detached mode (-d), allowing it to run in the background.
 
