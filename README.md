@@ -1,7 +1,7 @@
 # Flash Sale
 
 ## Overview
-This project implements a flash sale system, allowing users to purchase products at discounted prices for a limited time. The system is designed to be set up using Docker for easy deployment and management.
+This project implements a very simple but effective flash sale system, allowing users to purchase products at discounted prices for a limited time. The system is designed to be set up using Docker for easy deployment and management.
 
 ## Setup
 ### Prerequisites
