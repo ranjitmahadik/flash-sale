@@ -21,11 +21,11 @@ func main() {
 		panic(err)
 	}
 
-	// defer func() {
-	// 	_ = prepare.DropTable()
-	// }()
+	defer func() {
+		_ = prepare.DropTable()
+	}()
 
-	// prepare.PopulateFakeData()	// run only once to populate fake data.
+	prepare.PopulateFakeData() // run only once to populate fake data.
 
 	wg := sync.WaitGroup{}
 	wg.Add(50)
